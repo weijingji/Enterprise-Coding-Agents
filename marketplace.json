@@ -1,0 +1,31 @@
+{
+  "name": "eca",
+  "description": "ECA (Enterprise Coding Agents) — a six-role coding agent group with a gate-based orchestration protocol. Compatible with ZCode AND Claude Code: ships both .zcode-plugin and .claude-plugin manifests, installs from any Git-hosted marketplace.",
+  "plugins": [
+    {
+      "name": "eca",
+      "description": "Enterprise Coding Agents: six specialized subagents (architect/implementer/reviewer/security/test/debugger) plus an orchestration protocol with typed DoD checklists, three-level delivery acceptance, and mechanical verification gates. Works in ZCode and Claude Code.",
+      "source": "./eca",
+      "version": "0.1.1",
+      "category": "developer-tools",
+      "tags": [
+        "zcode",
+        "claude-code",
+        "claude-code-plugin",
+        "agents",
+        "subagents",
+        "multi-agent",
+        "code-review",
+        "tdd",
+        "security",
+        "asvs",
+        "iso-25010",
+        "orchestration",
+        "enterprise"
+      ],
+      "author": {
+        "name": "weijingji"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "eca",
+  "version": "0.1.1",
+  "description": "Enterprise Coding Agents — 6 个企业级编程智能体 + 编排协议 + /eca 入口",
+  "agents": "agents",
+  "skills": "skills",
+  "commands": "commands",
+  "author": {
+    "name": "weijingji"
+  },
+  "homepage": "https://github.com/weijingji/Enterprise-Coding-Agents"
+}
