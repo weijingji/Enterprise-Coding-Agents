@@ -6,7 +6,7 @@
 
 A six-role coding agent group plus a gate-based **orchestration protocol**. The design premise: *reliability comes from mechanical gates and checklists, not from an agent's memory or mood on the day*. ECA exists to prevent the classic failure mode where a large feature or a wide refactor leaves loose ends that only get fixed when someone stumbles into them.
 
-> **Status: beta / experimental.** Validated on a planted-defect acceptance project (see below). Prompts are written Chinese-first with English technical terms. Multi-GPU scheduler field trial (567 tests, 7 review rejections closed) passed its code phases; hardware acceptance is in progress.
+> **Status: stable (v0.1.1).** Ultimate test passed (2026-09-30, layered scoring, zero process-level defects): a local multi-GPU inference scheduler was built end-to-end by the agent group through an L2 pipeline — five implementation batches, 573 tests + real-GPU deployment acceptance with idempotent install/rollback drill, 7 review rejections all closed, and one real supply-chain fix loop (bash errexit fail-open root cause found and regression-locked). Prompts are written Chinese-first with English technical terms.
 
 ## Compatibility & install
 
